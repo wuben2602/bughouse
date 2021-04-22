@@ -1,0 +1,26 @@
+/** bughouse.css **/
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+/** board styling **/
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board{
+    background-color:yellow;
+    border: solid black;
+}
+
+.board > tr > th {
+    height: 50px;
+    width: 50px;
+    border: solid black;
+    background-color: yellowgreen
+}
